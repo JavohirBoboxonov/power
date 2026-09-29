@@ -1,0 +1,6 @@
+.ai-chat-panel { background: var(--bg-card); border-radius: 14px; border: 1px solid var(--border); display: flex; flex-direction: column; height: 560px; max-width: 720px; }
+.ai-chat-messages { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.ai-msg { max-width: 75%; padding: 10px 14px; border-radius: 14px; font-size: 14px; line-height: 1.55; }
+.ai-msg.user { align-self: flex-end; background: var(--accent); color: white; }
+.ai-msg.assistant { align-self: flex-start; background: oklch(0.95 0.01 260); color: var(--text); }
+.ai-chat-input-row { display: flex; gap: 10px; padding: 16px; border-top: 1px solid var(--border); }
